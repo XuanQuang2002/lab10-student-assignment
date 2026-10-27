@@ -1,11 +1,11 @@
-import airflow
 import datetime
 from airflow import DAG
-from airflow.operators.bash_operator import BashOperator
-from airflow.operators.dummy_operator import DummyOperator
+from airflow.utils.dates import days_ago
+from airflow.operators.bash import BashOperator
+from airflow.operators.empty import EmptyOperator
 
 default_args_dict = {
-    'start_date': airflow.utils.dates.days_ago(0),
+    'start_date': days_ago(0),
     'concurrency': 1,
     'schedule_interval': None,
     'retries': 1,
@@ -18,7 +18,7 @@ first_dag = DAG(
     catchup=False,
 )
 
-# task_one = DummyOperator(
+# task_one = EmptyOperator(
 #     task_id='get_bitcoin_price',
 #     dag=first_dag,
 #     depends_on_past=False,
@@ -43,7 +43,7 @@ task_one = BashOperator(
     depends_on_past=False,
 )
 
-# task_two = DummyOperator(
+# task_two = EmptyOperator(
 #     task_id='extract_usd_price',
 #     dag=first_dag,
 #     trigger_rule='all_success',
@@ -56,7 +56,7 @@ task_two = BashOperator(
     dag=first_dag,
 )
 
-# task_three = DummyOperator(
+# task_three = EmptyOperator(
 #     task_id='log_price',
 #     dag=first_dag,
 #     trigger_rule='all_success',
@@ -69,7 +69,7 @@ task_three = BashOperator(
     dag=first_dag,
 )
 
-# task_four = DummyOperator(
+# task_four = EmptyOperator(
 #     task_id='cleanup',
 #     dag=first_dag,
 #     trigger_rule='all_success',
@@ -82,7 +82,7 @@ task_four = BashOperator(
     dag=first_dag,
 )
 
-# TODO 1: (Tùy chọn) Chuyển các DummyOperator ở trên thành BashOperator để thực hiện công việc thực tế (tham khảo file giải nếu cần).
+# TODO 1: (Tùy chọn) Chuyển các EmptyOperator ở trên thành BashOperator để thực hiện công việc thực tế (tham khảo file giải nếu cần).
 # Nhiệm vụ: Tải giá Bitcoin (API: https://api.coindesk.com/v1/bpi/currentprice.json), trích xuất chữ "USD", in ra log, và xóa file tạm.
 
 # TODO 2: Khai báo DAG Dependencies (mối quan hệ phụ thuộc) giữa các task

@@ -7464,3 +7464,677 @@ File Path                             PID    Runtime      # DAGs    # Errors  La
 /opt/airflow/dags/second_dag_stub.py                           1           0  0.13s           2026-10-27T10:38:27                      12
 /opt/airflow/dags/first_dag_stub.py                            1           0  0.12s           2026-10-27T10:38:27                      12
 ================================================================================
+[2026-10-27T10:39:17.536+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.36s           2026-10-27T10:39:10                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.24s           2026-10-27T10:38:58                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.23s           2026-10-27T10:38:58                      12
+================================================================================
+[2026-10-27T10:39:48.195+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.32s           2026-10-27T10:39:41                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.27s           2026-10-27T10:39:28                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.26s           2026-10-27T10:39:28                      12
+================================================================================
+[2026-10-27T10:40:18.814+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.16s           2026-10-27T10:39:59                      12
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.15s           2026-10-27T10:40:11                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.13s           2026-10-27T10:39:59                      12
+================================================================================
+[2026-10-27T10:40:49.391+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.17s           2026-10-27T10:40:30                      12
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.16s           2026-10-27T10:40:42                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.12s           2026-10-27T10:40:30                      12
+================================================================================
+[2026-10-27T10:41:19.973+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.24s           2026-10-27T10:41:13                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.16s           2026-10-27T10:41:00                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.14s           2026-10-27T10:41:00                      12
+================================================================================
+[2026-10-27T10:41:50.504+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.14s           2026-10-27T10:41:43                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.13s           2026-10-27T10:41:31                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.10s           2026-10-27T10:41:31                      12
+================================================================================
+[2026-10-27T10:42:21.024+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.13s           2026-10-27T10:42:01                      12
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.11s           2026-10-27T10:42:13                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.11s           2026-10-27T10:42:01                      12
+================================================================================
+[2026-10-27T10:42:24.060+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-27T10:42:24.077+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2026-10-27T10:42:51.509+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.09s           2026-10-27T10:42:44                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.08s           2026-10-27T10:42:32                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.07s           2026-10-27T10:42:32                      12
+================================================================================
+[2026-10-27T10:43:21.964+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.10s           2026-10-27T10:43:02                      12
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.10s           2026-10-27T10:43:14                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.09s           2026-10-27T10:43:02                      12
+================================================================================
+[2026-10-27T10:43:52.441+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.10s           2026-10-27T10:43:45                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.08s           2026-10-27T10:43:33                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.07s           2026-10-27T10:43:33                      12
+================================================================================
+[2026-10-27T10:44:22.918+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.09s           2026-10-27T10:44:15                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.07s           2026-10-27T10:44:03                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.06s           2026-10-27T10:44:03                      12
+================================================================================
+[2026-10-27T10:55:01.248+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-27T10:55:01.257+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2026-10-27T10:55:16.692+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.11s           2026-10-27T10:55:01                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.06s           2026-10-27T10:55:01                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.05s           2026-10-27T10:55:01                      12
+================================================================================
+[2026-10-27T10:55:29.282+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-10-27T12:15:48.349+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2026-10-27T12:15:48.350+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-10-27T12:15:48.350+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-10-27T12:15:48.350+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-27T12:15:48.355+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2026-10-27T12:16:10.788+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.30s           2026-10-27T12:15:48                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.08s           2026-10-27T12:15:48                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.06s           2026-10-27T12:15:48                      12
+================================================================================
+[2026-10-27T12:16:41.295+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.12s           2026-10-27T12:16:19                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.08s           2026-10-27T12:16:18                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.04s           2026-10-27T12:16:19                      12
+================================================================================
+[2026-10-27T12:17:11.812+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.15s           2026-10-27T12:16:49                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.10s           2026-10-27T12:16:49                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.05s           2026-10-27T12:16:49                      12
+================================================================================
+[2026-10-27T12:17:42.330+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.12s           2026-10-27T12:17:20                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.06s           2026-10-27T12:17:20                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.05s           2026-10-27T12:17:20                      12
+================================================================================
+[2026-10-27T12:18:12.795+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.13s           2026-10-27T12:17:50                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.09s           2026-10-27T12:17:50                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.05s           2026-10-27T12:17:50                      12
+================================================================================
+[2026-10-27T12:18:43.294+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.15s           2026-10-27T12:18:21                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.10s           2026-10-27T12:18:21                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.05s           2026-10-27T12:18:21                      12
+================================================================================
+[2026-10-27T12:19:13.759+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.14s           2026-10-27T12:18:51                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.10s           2026-10-27T12:18:51                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.06s           2026-10-27T12:18:51                      12
+================================================================================
+[2026-10-27T12:19:44.338+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.15s           2026-10-27T12:19:22                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.08s           2026-10-27T12:19:21                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.05s           2026-10-27T12:19:22                      12
+================================================================================
+[2026-10-27T12:19:52.395+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-10-27T12:20:05.425+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2026-10-27T12:20:05.425+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-10-27T12:20:05.425+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-10-27T12:20:05.425+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-27T12:20:05.429+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2026-10-27T12:20:05.501+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/second_dag_stub.py    167  0.01s             0           0                                                   0
+/opt/airflow/dags/first_dag_stub.py                            0           0                                                   0
+/opt/airflow/dags/dnd_dag.py            164  0.01s             0           0                                                   0
+================================================================================
+[2026-10-27T12:20:35.893+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            179  0.01s             1           0  0.13s           2026-10-27T12:20:05                      12
+/opt/airflow/dags/second_dag_stub.py    182  0.00s             1           0  0.09s           2026-10-27T12:20:05                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.06s           2026-10-27T12:20:05                      12
+================================================================================
+[2026-10-27T12:21:06.393+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            194  0.02s             1           0  0.14s           2026-10-27T12:20:36                      12
+/opt/airflow/dags/second_dag_stub.py    196  0.01s             1           0  0.09s           2026-10-27T12:20:35                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.05s           2026-10-27T12:20:36                      12
+================================================================================
+[2026-10-27T12:21:37.020+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            209  0.02s             1           0  0.26s           2026-10-27T12:21:06                      12
+/opt/airflow/dags/second_dag_stub.py    212  0.00s             1           0  0.18s           2026-10-27T12:21:06                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.09s           2026-10-27T12:21:06                      12
+================================================================================
+[2026-10-27T12:22:07.505+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            224  0.01s             1           0  0.16s           2026-10-27T12:21:37                      12
+/opt/airflow/dags/second_dag_stub.py    227  0.00s             1           0  0.11s           2026-10-27T12:21:37                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.05s           2026-10-27T12:21:37                      12
+================================================================================
+[2026-10-27T12:22:37.967+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            239  0.02s             1           0  0.12s           2026-10-27T12:22:07                      12
+/opt/airflow/dags/second_dag_stub.py    242  0.00s             1           0  0.07s           2026-10-27T12:22:07                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.05s           2026-10-27T12:22:07                      12
+================================================================================
+[2026-10-27T12:23:08.424+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            254  0.01s             1           0  0.14s           2026-10-27T12:22:38                      12
+/opt/airflow/dags/second_dag_stub.py    256  0.00s             1           0  0.09s           2026-10-27T12:22:38                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.07s           2026-10-27T12:22:38                      12
+================================================================================
+[2026-10-27T12:23:38.838+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            269  0.03s             1           0  0.17s           2026-10-27T12:23:08                      12
+/opt/airflow/dags/second_dag_stub.py    272  0.01s             1           0  0.11s           2026-10-27T12:23:08                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.07s           2026-10-27T12:23:08                      12
+================================================================================
+[2026-10-27T12:24:09.389+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            284  0.01s             1           0  0.32s           2026-10-27T12:23:39                      12
+/opt/airflow/dags/second_dag_stub.py    287  0.00s             1           0  0.15s           2026-10-27T12:23:38                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.06s           2026-10-27T12:23:39                      12
+================================================================================
+[2026-10-27T12:24:39.904+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            299  0.02s             1           0  0.18s           2026-10-27T12:24:09                      12
+/opt/airflow/dags/second_dag_stub.py    302  0.00s             1           0  0.18s           2026-10-27T12:24:09                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.04s           2026-10-27T12:24:09                      12
+================================================================================
+[2026-10-27T12:25:06.389+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-27T12:25:06.398+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2026-10-27T12:25:10.463+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            314  0.01s             1           0  0.18s           2026-10-27T12:24:40                      12
+/opt/airflow/dags/second_dag_stub.py    317  0.00s             1           0  0.11s           2026-10-27T12:24:40                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.07s           2026-10-27T12:24:40                      12
+================================================================================
+[2026-10-27T12:25:41.052+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            329  0.02s             1           0  0.15s           2026-10-27T12:25:10                      12
+/opt/airflow/dags/second_dag_stub.py    332  0.00s             1           0  0.09s           2026-10-27T12:25:10                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.06s           2026-10-27T12:25:10                      12
+================================================================================
+[2026-10-27T12:26:11.591+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            344  0.02s             1           0  0.16s           2026-10-27T12:25:41                      12
+/opt/airflow/dags/second_dag_stub.py    347  0.00s             1           0  0.11s           2026-10-27T12:25:41                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.07s           2026-10-27T12:25:41                      12
+================================================================================
+[2026-10-27T12:26:42.240+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            359  0.02s             1           0  0.24s           2026-10-27T12:26:11                      12
+/opt/airflow/dags/second_dag_stub.py    362  0.01s             1           0  0.17s           2026-10-27T12:26:11                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.07s           2026-10-27T12:26:11                      12
+================================================================================
+[2026-10-27T12:27:12.755+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            374  0.01s             1           0  0.18s           2026-10-27T12:26:42                      12
+/opt/airflow/dags/second_dag_stub.py    377  0.00s             1           0  0.12s           2026-10-27T12:26:42                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.07s           2026-10-27T12:26:42                      12
+================================================================================
+[2026-10-27T12:27:43.231+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            389  0.01s             1           0  0.12s           2026-10-27T12:27:12                      12
+/opt/airflow/dags/second_dag_stub.py    392  0.00s             1           0  0.07s           2026-10-27T12:27:12                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.05s           2026-10-27T12:27:12                      12
+================================================================================
+[2026-10-27T12:28:13.708+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            404  0.01s             1           0  0.11s           2026-10-27T12:27:43                      12
+/opt/airflow/dags/second_dag_stub.py    407  0.00s             1           0  0.07s           2026-10-27T12:27:43                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.05s           2026-10-27T12:27:43                      12
+================================================================================
+[2026-10-27T12:28:44.155+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            424  0.01s             1           0  0.12s           2026-10-27T12:28:13                      12
+/opt/airflow/dags/second_dag_stub.py    427  0.00s             1           0  0.08s           2026-10-27T12:28:13                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.05s           2026-10-27T12:28:17                      12
+================================================================================
+[2026-10-27T12:29:14.597+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            439  0.01s             1           0  0.10s           2026-10-27T12:28:44                      12
+/opt/airflow/dags/second_dag_stub.py    442  0.00s             1           0  0.07s           2026-10-27T12:28:44                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.06s           2026-10-27T12:28:48                      12
+================================================================================
+[2026-10-27T12:29:45.018+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            454  0.02s             1           0  0.10s           2026-10-27T12:29:14                      12
+/opt/airflow/dags/second_dag_stub.py    455  0.00s             1           0  0.07s           2026-10-27T12:29:14                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.06s           2026-10-27T12:29:18                      12
+================================================================================
+[2026-10-27T12:30:06.519+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-27T12:30:06.535+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2026-10-27T12:30:15.685+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            469  0.02s             1           0  0.31s           2026-10-27T12:29:45                      12
+/opt/airflow/dags/second_dag_stub.py    472  0.00s             1           0  0.27s           2026-10-27T12:29:45                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.08s           2026-10-27T12:29:49                      12
+================================================================================
+[2026-10-27T12:30:46.137+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py            484  0.01s             1           0  0.18s           2026-10-27T12:30:15                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.11s           2026-10-27T12:30:19                      12
+/opt/airflow/dags/second_dag_stub.py    487  0.00s             1           0  0.11s           2026-10-27T12:30:15                      12
+================================================================================
+[2026-10-27T12:31:16.811+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.22s           2026-10-27T12:30:50                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.14s           2026-10-27T12:30:50                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.12s           2026-10-27T12:30:50                      12
+================================================================================
+[2026-10-27T12:31:47.351+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.14s           2026-10-27T12:31:21                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.09s           2026-10-27T12:31:20                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.06s           2026-10-27T12:31:21                      12
+================================================================================
+[2026-10-27T12:32:18.012+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.20s           2026-10-27T12:31:51                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.13s           2026-10-27T12:31:51                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.06s           2026-10-27T12:31:51                      12
+================================================================================
+[2026-10-27T12:32:48.638+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.24s           2026-10-27T12:32:22                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.15s           2026-10-27T12:32:22                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.07s           2026-10-27T12:32:22                      12
+================================================================================
+[2026-10-27T12:33:19.247+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.20s           2026-10-27T12:32:52                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.12s           2026-10-27T12:32:52                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.10s           2026-10-27T12:32:52                      12
+================================================================================
+[2026-10-27T12:33:49.853+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.20s           2026-10-27T12:33:23                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.14s           2026-10-27T12:33:23                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.06s           2026-10-27T12:33:23                      12
+================================================================================
+[2026-10-27T12:34:20.640+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.30s           2026-10-27T12:33:54                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.18s           2026-10-27T12:33:54                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.13s           2026-10-27T12:33:54                      12
+================================================================================
+[2026-10-27T12:34:51.202+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.19s           2026-10-27T12:34:24                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.11s           2026-10-27T12:34:24                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.08s           2026-10-27T12:34:24                      12
+================================================================================
+[2026-10-27T12:35:07.483+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-27T12:35:07.500+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2026-10-27T12:35:21.679+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.14s           2026-10-27T12:34:55                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.08s           2026-10-27T12:34:55                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.05s           2026-10-27T12:34:55                      12
+================================================================================
+[2026-10-27T12:35:52.168+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.15s           2026-10-27T12:35:25                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.10s           2026-10-27T12:35:25                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.06s           2026-10-27T12:35:25                      12
+================================================================================
+[2026-10-27T12:36:22.874+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.22s           2026-10-27T12:35:56                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.12s           2026-10-27T12:35:56                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.07s           2026-10-27T12:35:56                      12
+================================================================================
+[2026-10-27T12:36:53.406+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.14s           2026-10-27T12:36:27                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.09s           2026-10-27T12:36:27                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.06s           2026-10-27T12:36:27                      12
+================================================================================
+[2026-10-27T12:37:23.937+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.12s           2026-10-27T12:36:57                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.08s           2026-10-27T12:36:57                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.05s           2026-10-27T12:36:57                      12
+================================================================================
+[2026-10-27T12:37:54.546+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.22s           2026-10-27T12:37:28                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.15s           2026-10-27T12:37:28                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.07s           2026-10-27T12:37:28                      12
+================================================================================
+[2026-10-27T12:38:25.153+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.34s           2026-10-27T12:37:58                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.13s           2026-10-27T12:37:58                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.09s           2026-10-27T12:37:58                      12
+================================================================================
+[2026-10-27T12:38:55.949+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.32s           2026-10-27T12:38:29                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.20s           2026-10-27T12:38:29                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.08s           2026-10-27T12:38:29                      12
+================================================================================
+[2026-10-27T12:39:26.571+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.21s           2026-10-27T12:39:00                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.14s           2026-10-27T12:39:00                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.08s           2026-10-27T12:39:00                      12
+================================================================================
+[2026-10-27T12:39:57.098+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.14s           2026-10-27T12:39:30                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.09s           2026-10-27T12:39:30                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.05s           2026-10-27T12:39:30                      12
+================================================================================
+[2026-10-27T12:40:08.420+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-27T12:40:08.434+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2026-10-27T12:40:27.626+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.16s           2026-10-27T12:40:01                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.10s           2026-10-27T12:40:01                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.07s           2026-10-27T12:40:01                      12
+================================================================================
+[2026-10-27T12:40:58.120+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.25s           2026-10-27T12:40:31                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.10s           2026-10-27T12:40:31                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.07s           2026-10-27T12:40:31                      12
+================================================================================
+[2026-10-27T12:41:28.745+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.17s           2026-10-27T12:41:02                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.11s           2026-10-27T12:41:02                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.07s           2026-10-27T12:41:02                      12
+================================================================================
+[2026-10-27T12:41:59.519+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.19s           2026-10-27T12:41:33                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.11s           2026-10-27T12:41:33                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.08s           2026-10-27T12:41:33                      12
+================================================================================
+[2026-10-27T12:42:30.328+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dnd_dag.py                                   1           0  0.44s           2026-10-27T12:42:04                      12
+/opt/airflow/dags/first_dag_stub.py                            1           0  0.19s           2026-10-27T12:42:03                      12
+/opt/airflow/dags/second_dag_stub.py                           1           0  0.15s           2026-10-27T12:42:03                      12
+================================================================================

@@ -12,7 +12,7 @@ from faker import Faker
 
 from airflow import DAG
 from airflow.exceptions import AirflowException
-from airflow.operators.dummy import DummyOperator
+from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import BranchPythonOperator, PythonOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 
@@ -186,8 +186,8 @@ with DAG(
     catchup=False,
     max_active_runs=1,
 ) as dag:
-    start = DummyOperator(task_id="start")
-    end = DummyOperator(task_id="end", trigger_rule="none_failed")
+    start = EmptyOperator(task_id="start")
+    end = EmptyOperator(task_id="end", trigger_rule="none_failed")
 
     generate_base_chars_task = PythonOperator(
         task_id="generate_base_chars", python_callable=generate_base_chars

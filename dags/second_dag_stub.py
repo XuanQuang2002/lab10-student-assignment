@@ -3,7 +3,7 @@ import urllib.request as request
 import json
 from airflow import DAG
 from airflow.operators.python import PythonOperator, BranchPythonOperator
-from airflow.operators.dummy import DummyOperator
+from airflow.operators.empty import EmptyOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 
 def _get_random_user(epoch, output_folder):
@@ -120,13 +120,13 @@ task_four_b = PostgresOperator(
     dag=second_dag,
 )
 
-join_tasks = DummyOperator(
+join_tasks = EmptyOperator(
     task_id='join_tasks',
     dag=second_dag,
     trigger_rule='none_failed'
 )
 
-end = DummyOperator(
+end = EmptyOperator(
     task_id='end',
     dag=second_dag,
     trigger_rule='none_failed'

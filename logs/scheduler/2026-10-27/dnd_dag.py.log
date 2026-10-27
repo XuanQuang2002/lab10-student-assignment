@@ -5199,3 +5199,464 @@ TypeError: BaseOperator.__init__() missing 1 required positional argument: 'task
 [2026-10-27T10:38:40.149+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:38:40.149+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-10-27T10:38:40.161+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:38:40.161+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
 [2026-10-27T10:38:40.169+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.343 seconds
+[2026-10-27T10:39:10.243+0000] {processor.py:186} INFO - Started process (PID=3416) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:39:10.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T10:39:10.246+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:39:10.246+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:39:10.504+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:39:10.527+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:39:10.527+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T10:39:10.541+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:39:10.541+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T10:39:10.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.317 seconds
+[2026-10-27T10:39:40.990+0000] {processor.py:186} INFO - Started process (PID=3431) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:39:40.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T10:39:40.993+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:39:40.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:39:41.237+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:39:41.251+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:39:41.251+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T10:39:41.262+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:39:41.262+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T10:39:41.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.293 seconds
+[2026-10-27T10:40:11.694+0000] {processor.py:186} INFO - Started process (PID=3446) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:40:11.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T10:40:11.697+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:40:11.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:40:11.769+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:40:11.787+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:40:11.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T10:40:11.802+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:40:11.802+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T10:40:11.810+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.128 seconds
+[2026-10-27T10:40:42.231+0000] {processor.py:186} INFO - Started process (PID=3461) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:40:42.233+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T10:40:42.235+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:40:42.234+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:40:42.316+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:40:42.333+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:40:42.333+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T10:40:42.347+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:40:42.347+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T10:40:42.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.137 seconds
+[2026-10-27T10:41:12.838+0000] {processor.py:186} INFO - Started process (PID=3476) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:41:12.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T10:41:12.841+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:41:12.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:41:12.914+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:41:12.955+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:41:12.954+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T10:41:13.001+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:41:13.001+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T10:41:13.031+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.204 seconds
+[2026-10-27T10:41:43.437+0000] {processor.py:186} INFO - Started process (PID=3491) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:41:43.438+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T10:41:43.440+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:41:43.439+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:41:43.499+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:41:43.515+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:41:43.515+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T10:41:43.530+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:41:43.530+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T10:41:43.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.109 seconds
+[2026-10-27T10:42:13.890+0000] {processor.py:186} INFO - Started process (PID=3506) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:42:13.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T10:42:13.893+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:42:13.892+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:42:13.948+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:42:13.960+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:42:13.960+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T10:42:13.969+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:42:13.969+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T10:42:13.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.094 seconds
+[2026-10-27T10:42:44.419+0000] {processor.py:186} INFO - Started process (PID=3521) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:42:44.420+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T10:42:44.421+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:42:44.420+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:42:44.462+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:42:44.473+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:42:44.473+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T10:42:44.482+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:42:44.482+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T10:42:44.488+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.073 seconds
+[2026-10-27T10:43:14.877+0000] {processor.py:186} INFO - Started process (PID=3536) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:43:14.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T10:43:14.880+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:43:14.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:43:14.925+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:43:14.936+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:43:14.936+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T10:43:14.946+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:43:14.946+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T10:43:14.951+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.081 seconds
+[2026-10-27T10:43:45.367+0000] {processor.py:186} INFO - Started process (PID=3551) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:43:45.369+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T10:43:45.369+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:43:45.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:43:45.420+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:43:45.431+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:43:45.431+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T10:43:45.440+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:43:45.439+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T10:43:45.446+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.085 seconds
+[2026-10-27T10:44:15.826+0000] {processor.py:186} INFO - Started process (PID=3566) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:44:15.827+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T10:44:15.828+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:44:15.828+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:44:15.869+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:44:15.880+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:44:15.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T10:44:15.890+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:44:15.889+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T10:44:15.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.075 seconds
+[2026-10-27T10:55:01.283+0000] {processor.py:186} INFO - Started process (PID=3581) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:55:01.284+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T10:55:01.286+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:55:01.286+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:55:01.335+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T10:55:01.350+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:55:01.350+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T10:55:01.362+0000] {logging_mixin.py:190} INFO - [2026-10-27T10:55:01.362+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T10:55:01.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.099 seconds
+[2026-10-27T12:15:48.396+0000] {processor.py:186} INFO - Started process (PID=163) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:15:48.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:15:48.398+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:15:48.398+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:15:48.604+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:15:48.628+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:15:48.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:15:48.655+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:15:48.654+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:15:48.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.282 seconds
+[2026-10-27T12:16:18.923+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:16:18.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:16:18.926+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:16:18.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:16:18.983+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:16:18.995+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:16:18.995+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:16:19.004+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:16:19.004+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:16:19.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.097 seconds
+[2026-10-27T12:16:49.421+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:16:49.423+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:16:49.427+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:16:49.427+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:16:49.501+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:16:49.516+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:16:49.516+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:16:49.530+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:16:49.530+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:16:49.540+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.128 seconds
+[2026-10-27T12:17:19.954+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:17:19.955+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:17:19.956+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:17:19.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:17:20.007+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:17:20.020+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:17:20.020+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:17:20.031+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:17:20.031+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:17:20.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.092 seconds
+[2026-10-27T12:17:50.443+0000] {processor.py:186} INFO - Started process (PID=223) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:17:50.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:17:50.446+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:17:50.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:17:50.501+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:17:50.519+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:17:50.518+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:17:50.530+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:17:50.530+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:17:50.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.107 seconds
+[2026-10-27T12:18:20.918+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:18:20.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:18:20.924+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:18:20.924+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:18:20.999+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:18:21.013+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:18:21.013+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:18:21.024+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:18:21.024+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:18:21.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.126 seconds
+[2026-10-27T12:18:51.407+0000] {processor.py:186} INFO - Started process (PID=253) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:18:51.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:18:51.411+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:18:51.410+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:18:51.475+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:18:51.495+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:18:51.494+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:18:51.509+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:18:51.509+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:18:51.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.121 seconds
+[2026-10-27T12:19:21.892+0000] {processor.py:186} INFO - Started process (PID=268) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:19:21.893+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:19:21.896+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:19:21.895+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:19:21.965+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:19:21.981+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:19:21.981+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:19:21.996+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:19:21.996+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:19:22.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.122 seconds
+[2026-10-27T12:20:05.496+0000] {processor.py:186} INFO - Started process (PID=164) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:20:05.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:20:05.499+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:20:05.499+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:20:05.561+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:20:05.582+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:20:05.581+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:20:05.594+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:20:05.594+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:20:05.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.114 seconds
+[2026-10-27T12:20:35.901+0000] {processor.py:186} INFO - Started process (PID=179) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:20:35.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:20:35.905+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:20:35.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:20:35.967+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:20:35.982+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:20:35.981+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:20:35.996+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:20:35.996+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:20:36.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.114 seconds
+[2026-10-27T12:21:06.412+0000] {processor.py:186} INFO - Started process (PID=194) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:21:06.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:21:06.420+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:21:06.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:21:06.561+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:21:06.587+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:21:06.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:21:06.611+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:21:06.610+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:21:06.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.229 seconds
+[2026-10-27T12:21:37.030+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:21:37.033+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:21:37.038+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:21:37.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:21:37.117+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:21:37.132+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:21:37.132+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:21:37.143+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:21:37.143+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:21:37.152+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.131 seconds
+[2026-10-27T12:22:07.513+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:22:07.514+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:22:07.517+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:22:07.517+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:22:07.574+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:22:07.587+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:22:07.587+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:22:07.598+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:22:07.598+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:22:07.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.099 seconds
+[2026-10-27T12:22:37.976+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:22:37.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:22:37.980+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:22:37.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:22:38.042+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:22:38.060+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:22:38.060+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:22:38.072+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:22:38.072+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:22:38.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.117 seconds
+[2026-10-27T12:23:08.436+0000] {processor.py:186} INFO - Started process (PID=254) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:23:08.437+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:23:08.440+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:23:08.439+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:23:08.509+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:23:08.534+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:23:08.534+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:23:08.552+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:23:08.552+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:23:08.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.137 seconds
+[2026-10-27T12:23:38.861+0000] {processor.py:186} INFO - Started process (PID=269) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:23:38.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:23:38.870+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:23:38.870+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:23:39.101+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:23:39.112+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:23:39.112+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:23:39.122+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:23:39.122+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:23:39.128+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.294 seconds
+[2026-10-27T12:24:09.403+0000] {processor.py:186} INFO - Started process (PID=284) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:24:09.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:24:09.407+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:24:09.406+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:24:09.473+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:24:09.493+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:24:09.493+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:24:09.507+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:24:09.507+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:24:09.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.164 seconds
+[2026-10-27T12:24:39.917+0000] {processor.py:186} INFO - Started process (PID=299) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:24:39.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:24:39.921+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:24:39.921+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:24:40.013+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:24:40.029+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:24:40.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:24:40.039+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:24:40.039+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:24:40.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.152 seconds
+[2026-10-27T12:25:10.474+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:25:10.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:25:10.477+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:25:10.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:25:10.549+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:25:10.570+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:25:10.569+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:25:10.582+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:25:10.582+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:25:10.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.127 seconds
+[2026-10-27T12:25:41.059+0000] {processor.py:186} INFO - Started process (PID=329) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:25:41.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:25:41.063+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:25:41.063+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:25:41.138+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:25:41.156+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:25:41.155+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:25:41.170+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:25:41.170+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:25:41.186+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.136 seconds
+[2026-10-27T12:26:11.607+0000] {processor.py:186} INFO - Started process (PID=344) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:26:11.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:26:11.616+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:26:11.615+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:26:11.752+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:26:11.778+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:26:11.777+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:26:11.791+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:26:11.791+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:26:11.800+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.206 seconds
+[2026-10-27T12:26:42.248+0000] {processor.py:186} INFO - Started process (PID=359) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:26:42.251+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:26:42.257+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:26:42.256+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:26:42.343+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:26:42.367+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:26:42.367+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:26:42.382+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:26:42.382+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:26:42.395+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.158 seconds
+[2026-10-27T12:27:12.762+0000] {processor.py:186} INFO - Started process (PID=374) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:27:12.763+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:27:12.765+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:27:12.764+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:27:12.823+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:27:12.837+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:27:12.837+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:27:12.850+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:27:12.849+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:27:12.857+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.102 seconds
+[2026-10-27T12:27:43.235+0000] {processor.py:186} INFO - Started process (PID=389) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:27:43.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:27:43.238+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:27:43.238+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:27:43.290+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:27:43.301+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:27:43.301+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:27:43.315+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:27:43.315+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:27:43.326+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.096 seconds
+[2026-10-27T12:28:13.716+0000] {processor.py:186} INFO - Started process (PID=404) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:28:13.717+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:28:13.719+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:28:13.719+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:28:13.779+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:28:13.792+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:28:13.792+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:28:13.804+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:28:13.804+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:28:13.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.103 seconds
+[2026-10-27T12:28:44.159+0000] {processor.py:186} INFO - Started process (PID=424) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:28:44.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:28:44.162+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:28:44.162+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:28:44.207+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:28:44.220+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:28:44.220+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:28:44.228+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:28:44.228+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:28:44.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.081 seconds
+[2026-10-27T12:29:14.601+0000] {processor.py:186} INFO - Started process (PID=439) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:29:14.602+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:29:14.604+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:29:14.604+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:29:14.653+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:29:14.667+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:29:14.667+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:29:14.676+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:29:14.676+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:29:14.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.090 seconds
+[2026-10-27T12:29:45.033+0000] {processor.py:186} INFO - Started process (PID=454) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:29:45.034+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:29:45.041+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:29:45.041+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:29:45.234+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:29:45.273+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:29:45.273+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:29:45.293+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:29:45.293+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:29:45.301+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.276 seconds
+[2026-10-27T12:30:15.703+0000] {processor.py:186} INFO - Started process (PID=469) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:30:15.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:30:15.706+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:30:15.706+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:30:15.811+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:30:15.824+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:30:15.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:30:15.833+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:30:15.833+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:30:15.839+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.157 seconds
+[2026-10-27T12:30:46.141+0000] {processor.py:186} INFO - Started process (PID=484) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:30:46.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:30:46.144+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:30:46.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:30:46.196+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:30:46.217+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:30:46.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:30:46.230+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:30:46.230+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:30:46.239+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.103 seconds
+[2026-10-27T12:30:50.277+0000] {processor.py:186} INFO - Started process (PID=494) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:30:50.278+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:30:50.280+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:30:50.279+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:30:50.382+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:30:50.423+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:30:50.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:30:50.451+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:30:50.450+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:30:50.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.206 seconds
+[2026-10-27T12:31:20.897+0000] {processor.py:186} INFO - Started process (PID=509) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:31:20.898+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:31:20.901+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:31:20.900+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:31:20.965+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:31:20.981+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:31:20.980+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:31:20.990+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:31:20.990+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:31:21.002+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.112 seconds
+[2026-10-27T12:31:51.500+0000] {processor.py:186} INFO - Started process (PID=524) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:31:51.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:31:51.504+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:31:51.503+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:31:51.613+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:31:51.630+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:31:51.630+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:31:51.644+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:31:51.644+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:31:51.651+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.164 seconds
+[2026-10-27T12:32:22.134+0000] {processor.py:186} INFO - Started process (PID=539) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:32:22.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:32:22.141+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:32:22.141+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:32:22.263+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:32:22.286+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:32:22.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:32:22.302+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:32:22.301+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:32:22.313+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.191 seconds
+[2026-10-27T12:32:52.705+0000] {processor.py:186} INFO - Started process (PID=554) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:32:52.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:32:52.709+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:32:52.709+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:32:52.806+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:32:52.856+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:32:52.856+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:32:52.872+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:32:52.872+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:32:52.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.187 seconds
+[2026-10-27T12:33:23.357+0000] {processor.py:186} INFO - Started process (PID=590) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:33:23.358+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:33:23.361+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:33:23.360+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:33:23.476+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:33:23.489+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:33:23.489+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:33:23.500+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:33:23.500+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:33:23.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.167 seconds
+[2026-10-27T12:33:53.960+0000] {processor.py:186} INFO - Started process (PID=617) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:33:53.963+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:33:53.968+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:33:53.967+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:33:54.116+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:33:54.136+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:33:54.136+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:33:54.195+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:33:54.195+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:33:54.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.271 seconds
+[2026-10-27T12:34:24.751+0000] {processor.py:186} INFO - Started process (PID=632) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:34:24.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:34:24.758+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:34:24.758+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:34:24.838+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:34:24.856+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:34:24.856+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:34:24.878+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:34:24.877+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:34:24.891+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.157 seconds
+[2026-10-27T12:34:55.281+0000] {processor.py:186} INFO - Started process (PID=659) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:34:55.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:34:55.284+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:34:55.284+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:34:55.333+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:34:55.371+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:34:55.371+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:34:55.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.120 seconds
+[2026-10-27T12:35:25.757+0000] {processor.py:186} INFO - Started process (PID=677) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:35:25.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:35:25.762+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:35:25.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:35:25.838+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:35:25.851+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:35:25.850+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:35:25.861+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:35:25.860+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:35:25.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.127 seconds
+[2026-10-27T12:35:56.394+0000] {processor.py:186} INFO - Started process (PID=692) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:35:56.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:35:56.400+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:35:56.399+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:35:56.497+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:35:56.512+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:35:56.512+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:35:56.526+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:35:56.526+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:35:56.536+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.162 seconds
+[2026-10-27T12:36:26.956+0000] {processor.py:186} INFO - Started process (PID=707) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:36:26.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:36:26.961+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:36:26.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:36:27.033+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:36:27.046+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:36:27.046+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:36:27.058+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:36:27.058+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:36:27.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.119 seconds
+[2026-10-27T12:36:57.471+0000] {processor.py:186} INFO - Started process (PID=722) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:36:57.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:36:57.475+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:36:57.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:36:57.532+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:36:57.546+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:36:57.546+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:36:57.557+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:36:57.556+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:36:57.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.102 seconds
+[2026-10-27T12:37:28.049+0000] {processor.py:186} INFO - Started process (PID=737) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:37:28.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:37:28.054+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:37:28.054+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:37:28.162+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:37:28.177+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:37:28.177+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:37:28.190+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:37:28.189+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:37:28.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.174 seconds
+[2026-10-27T12:37:58.647+0000] {processor.py:186} INFO - Started process (PID=752) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:37:58.649+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:37:58.652+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:37:58.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:37:58.751+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:37:58.769+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:37:58.768+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:37:58.786+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:37:58.786+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:37:58.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.303 seconds
+[2026-10-27T12:38:29.359+0000] {processor.py:186} INFO - Started process (PID=767) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:38:29.360+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:38:29.369+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:38:29.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:38:29.523+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:38:29.560+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:38:29.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:38:29.576+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:38:29.575+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:38:29.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.245 seconds
+[2026-10-27T12:39:00.059+0000] {processor.py:186} INFO - Started process (PID=782) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:39:00.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:39:00.063+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:39:00.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:39:00.183+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:39:00.204+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:39:00.203+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:39:00.217+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:39:00.217+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:39:00.228+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.181 seconds
+[2026-10-27T12:39:30.666+0000] {processor.py:186} INFO - Started process (PID=797) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:39:30.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:39:30.671+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:39:30.670+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:39:30.737+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:39:30.749+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:39:30.749+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:39:30.759+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:39:30.759+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:39:30.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.114 seconds
+[2026-10-27T12:40:01.168+0000] {processor.py:186} INFO - Started process (PID=812) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:40:01.170+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:40:01.175+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:40:01.175+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:40:01.265+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:40:01.278+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:40:01.278+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:40:01.290+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:40:01.290+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:40:01.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.140 seconds
+[2026-10-27T12:40:31.706+0000] {processor.py:186} INFO - Started process (PID=827) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:40:31.708+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:40:31.712+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:40:31.711+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:40:31.786+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:40:31.801+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:40:31.801+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:40:31.816+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:40:31.815+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:40:31.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.222 seconds
+[2026-10-27T12:41:02.222+0000] {processor.py:186} INFO - Started process (PID=842) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:41:02.224+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:41:02.229+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:41:02.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:41:02.311+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:41:02.330+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:41:02.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:41:02.340+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:41:02.340+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:41:02.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.144 seconds
+[2026-10-27T12:41:33.042+0000] {processor.py:186} INFO - Started process (PID=857) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:41:33.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:41:33.047+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:41:33.047+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:41:33.133+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:41:33.149+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:41:33.149+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:41:33.166+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:41:33.166+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:41:33.180+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.150 seconds
+[2026-10-27T12:42:03.637+0000] {processor.py:186} INFO - Started process (PID=872) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:42:03.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:42:03.657+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:42:03.657+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:42:03.770+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:42:03.803+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:42:03.803+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:42:04.002+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:42:04.002+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:42:04.008+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.388 seconds
+[2026-10-27T12:42:34.412+0000] {processor.py:186} INFO - Started process (PID=887) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:42:34.413+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:42:34.416+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:42:34.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:42:34.483+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:42:34.503+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:42:34.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:42:34.516+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:42:34.516+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:42:34.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.121 seconds
