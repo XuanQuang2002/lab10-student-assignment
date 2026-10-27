@@ -1,0 +1,22 @@
+[2026-10-27T07:14:53.339+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-10-27T07:14:53.345+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: second_dag_stub.check_gender scheduled__2026-10-26T00:00:00+00:00 [queued]>
+[2026-10-27T07:14:53.347+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: second_dag_stub.check_gender scheduled__2026-10-26T00:00:00+00:00 [queued]>
+[2026-10-27T07:14:53.347+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2026-10-27T07:14:53.352+0000] {taskinstance.py:2888} INFO - Executing <Task(BranchPythonOperator): check_gender> on 2026-10-26 00:00:00+00:00
+[2026-10-27T07:14:53.355+0000] {standard_task_runner.py:72} INFO - Started process 8116 to run task
+[2026-10-27T07:14:53.357+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'second_dag_stub', 'check_gender', 'scheduled__2026-10-26T00:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/second_dag_stub.py', '--cfg-path', '/tmp/tmp12la9l0x']
+[2026-10-27T07:14:53.358+0000] {standard_task_runner.py:105} INFO - Job 10: Subtask check_gender
+[2026-10-27T07:14:53.380+0000] {task_command.py:467} INFO - Running <TaskInstance: second_dag_stub.check_gender scheduled__2026-10-26T00:00:00+00:00 [running]> on host f859a00d9926
+[2026-10-27T07:14:53.411+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='second_dag_stub' AIRFLOW_CTX_TASK_ID='check_gender' AIRFLOW_CTX_EXECUTION_DATE='2026-10-26T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-10-26T00:00:00+00:00'
+[2026-10-27T07:14:53.411+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-10-27T07:14:53.417+0000] {baseoperator.py:405} WARNING - BranchPythonOperator.execute cannot be called outside TaskInstance!
+[2026-10-27T07:14:53.417+0000] {python.py:240} INFO - Done. Returned value was: process_female
+[2026-10-27T07:14:53.417+0000] {branch.py:38} INFO - Branch into process_female
+[2026-10-27T07:14:53.418+0000] {skipmixin.py:230} INFO - Following branch ('process_female',)
+[2026-10-27T07:14:53.423+0000] {skipmixin.py:278} INFO - Skipping tasks [('process_male', -1)]
+[2026-10-27T07:14:53.433+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-10-27T07:14:53.433+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=second_dag_stub, task_id=check_gender, run_id=scheduled__2026-10-26T00:00:00+00:00, execution_date=20261026T000000, start_date=20261027T071453, end_date=20261027T071453
+[2026-10-27T07:14:53.453+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-10-27T07:14:53.460+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.10/site-packages/***/models/baseoperator.py:1378 AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+[2026-10-27T07:14:53.469+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T07:14:53.470+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

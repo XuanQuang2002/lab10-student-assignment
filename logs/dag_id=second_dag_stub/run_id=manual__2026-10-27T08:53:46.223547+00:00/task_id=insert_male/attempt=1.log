@@ -1,0 +1,24 @@
+[2026-10-27T08:53:50.405+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-10-27T08:53:50.411+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: second_dag_stub.insert_male manual__2026-10-27T08:53:46.223547+00:00 [queued]>
+[2026-10-27T08:53:50.414+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: second_dag_stub.insert_male manual__2026-10-27T08:53:46.223547+00:00 [queued]>
+[2026-10-27T08:53:50.414+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2026-10-27T08:53:50.418+0000] {taskinstance.py:2888} INFO - Executing <Task(PostgresOperator): insert_male> on 2026-10-27 08:53:46.223547+00:00
+[2026-10-27T08:53:50.419+0000] {standard_task_runner.py:72} INFO - Started process 234 to run task
+[2026-10-27T08:53:50.421+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'second_dag_stub', 'insert_male', 'manual__2026-10-27T08:53:46.223547+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/second_dag_stub.py', '--cfg-path', '/tmp/tmp2_z1gs8t']
+[2026-10-27T08:53:50.423+0000] {standard_task_runner.py:105} INFO - Job 17: Subtask insert_male
+[2026-10-27T08:53:50.440+0000] {task_command.py:467} INFO - Running <TaskInstance: second_dag_stub.insert_male manual__2026-10-27T08:53:46.223547+00:00 [running]> on host f859a00d9926
+[2026-10-27T08:53:50.476+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='second_dag_stub' AIRFLOW_CTX_TASK_ID='insert_male' AIRFLOW_CTX_EXECUTION_DATE='2026-10-27T08:53:46.223547+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-10-27T08:53:46.223547+00:00'
+[2026-10-27T08:53:50.477+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-10-27T08:53:50.481+0000] {sql.py:266} INFO - Executing: CREATE TABLE IF NOT EXISTS male_users (name VARCHAR, email VARCHAR);
+INSERT INTO male_users (name, email) VALUES (%(name)s, %(email)s);
+[2026-10-27T08:53:50.485+0000] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-10-27T08:53:50.488+0000] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-10-27T08:53:50.490+0000] {sql.py:509} INFO - Running statement: CREATE TABLE IF NOT EXISTS male_users (name VARCHAR, email VARCHAR);
+INSERT INTO male_users (name, email) VALUES (%(name)s, %(email)s);, parameters: {'name': 'Marko Lastoveckiy', 'email': 'marko.lastoveckiy@example.com'}
+[2026-10-27T08:53:50.490+0000] {sql.py:518} INFO - Rows affected: 1
+[2026-10-27T08:53:50.493+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-10-27T08:53:50.493+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=second_dag_stub, task_id=insert_male, run_id=manual__2026-10-27T08:53:46.223547+00:00, execution_date=20261027T085346, start_date=20261027T085350, end_date=20261027T085350
+[2026-10-27T08:53:50.520+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-10-27T08:53:50.526+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.10/site-packages/***/models/baseoperator.py:1378 AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+[2026-10-27T08:53:50.530+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T08:53:50.531+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

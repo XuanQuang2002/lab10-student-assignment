@@ -1,0 +1,22 @@
+[2026-10-27T05:34:14.756+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-10-27T05:34:14.763+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: first_dag_stub.get_bitcoin_price manual__2026-10-27T05:34:14.472945+00:00 [queued]>
+[2026-10-27T05:34:14.767+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: first_dag_stub.get_bitcoin_price manual__2026-10-27T05:34:14.472945+00:00 [queued]>
+[2026-10-27T05:34:14.768+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2026-10-27T05:34:14.773+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): get_bitcoin_price> on 2026-10-27 05:34:14.472945+00:00
+[2026-10-27T05:34:14.776+0000] {standard_task_runner.py:72} INFO - Started process 5041 to run task
+[2026-10-27T05:34:14.778+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'first_dag_stub', 'get_bitcoin_price', 'manual__2026-10-27T05:34:14.472945+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/first_dag_stub.py', '--cfg-path', '/tmp/tmpwg_si2wy']
+[2026-10-27T05:34:14.780+0000] {standard_task_runner.py:105} INFO - Job 5: Subtask get_bitcoin_price
+[2026-10-27T05:34:14.803+0000] {task_command.py:467} INFO - Running <TaskInstance: first_dag_stub.get_bitcoin_price manual__2026-10-27T05:34:14.472945+00:00 [running]> on host f859a00d9926
+[2026-10-27T05:34:14.842+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='first_dag_stub' AIRFLOW_CTX_TASK_ID='get_bitcoin_price' AIRFLOW_CTX_EXECUTION_DATE='2026-10-27T05:34:14.472945+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-10-27T05:34:14.472945+00:00'
+[2026-10-27T05:34:14.843+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-10-27T05:34:14.850+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-10-27T05:34:14.851+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        if ! curl --fail --silent --show-error --location             --connect-timeout 5 --max-time 30             https://api.coindesk.com/v1/bpi/currentprice.json             --output /tmp/bitcoin.json; then\n            echo "CoinDesk unavailable; downloading BTC/USD data from Coinbase."\n            curl --fail --silent --show-error --location                 --connect-timeout 5 --max-time 30                 https://api.coinbase.com/v2/prices/BTC-USD/spot                 --output /tmp/bitcoin.json\n        fi\n    ']
+[2026-10-27T05:34:14.855+0000] {subprocess.py:86} INFO - Output:
+[2026-10-27T05:34:14.869+0000] {subprocess.py:93} INFO - curl: (6) Could not resolve host: api.coindesk.com
+[2026-10-27T05:34:14.869+0000] {subprocess.py:93} INFO - CoinDesk unavailable; downloading BTC/USD data from Coinbase.
+[2026-10-27T05:34:15.020+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-10-27T05:34:15.041+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-10-27T05:34:15.042+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=first_dag_stub, task_id=get_bitcoin_price, run_id=manual__2026-10-27T05:34:14.472945+00:00, execution_date=20261027T053414, start_date=20261027T053414, end_date=20261027T053415
+[2026-10-27T05:34:15.080+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-10-27T05:34:15.165+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T05:34:15.166+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

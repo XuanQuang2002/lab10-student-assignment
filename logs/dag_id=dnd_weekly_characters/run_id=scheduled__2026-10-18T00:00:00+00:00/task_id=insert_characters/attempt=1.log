@@ -1,0 +1,54 @@
+[2026-10-27T10:36:37.482+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-10-27T10:36:37.488+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dnd_weekly_characters.insert_characters scheduled__2026-10-18T00:00:00+00:00 [queued]>
+[2026-10-27T10:36:37.491+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dnd_weekly_characters.insert_characters scheduled__2026-10-18T00:00:00+00:00 [queued]>
+[2026-10-27T10:36:37.491+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2026-10-27T10:36:37.497+0000] {taskinstance.py:2888} INFO - Executing <Task(PostgresOperator): insert_characters> on 2026-10-18 00:00:00+00:00
+[2026-10-27T10:36:37.499+0000] {standard_task_runner.py:72} INFO - Started process 3339 to run task
+[2026-10-27T10:36:37.500+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dnd_weekly_characters', 'insert_characters', 'scheduled__2026-10-18T00:00:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/dnd_dag.py', '--cfg-path', '/tmp/tmplmp040k0']
+[2026-10-27T10:36:37.502+0000] {standard_task_runner.py:105} INFO - Job 22: Subtask insert_characters
+[2026-10-27T10:36:37.521+0000] {task_command.py:467} INFO - Running <TaskInstance: dnd_weekly_characters.insert_characters scheduled__2026-10-18T00:00:00+00:00 [running]> on host f859a00d9926
+[2026-10-27T10:36:37.653+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='student' AIRFLOW_CTX_DAG_ID='dnd_weekly_characters' AIRFLOW_CTX_TASK_ID='insert_characters' AIRFLOW_CTX_EXECUTION_DATE='2026-10-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-10-18T00:00:00+00:00'
+[2026-10-27T10:36:37.654+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-10-27T10:36:37.659+0000] {sql.py:266} INFO - Executing: 
+CREATE TABLE IF NOT EXISTS dnd_characters (
+    name VARCHAR,
+    attributes VARCHAR,
+    level VARCHAR,
+    race VARCHAR,
+    "class" VARCHAR,
+    languages VARCHAR,
+    profficiency_choices VARCHAR,
+    spells VARCHAR
+);
+INSERT INTO dnd_characters ("name", "attributes", "level", "race", "class", "languages", "profficiency_choices", "spells") VALUES
+(%(name_0)s, %(attributes_0)s, %(level_0)s, %(race_0)s, %(class_0)s, %(languages_0)s, %(profficiency_choices_0)s, %(spells_0)s),
+(%(name_1)s, %(attributes_1)s, %(level_1)s, %(race_1)s, %(class_1)s, %(languages_1)s, %(profficiency_choices_1)s, %(spells_1)s),
+(%(name_2)s, %(attributes_2)s, %(level_2)s, %(race_2)s, %(class_2)s, %(languages_2)s, %(profficiency_choices_2)s, %(spells_2)s),
+(%(name_3)s, %(attributes_3)s, %(level_3)s, %(race_3)s, %(class_3)s, %(languages_3)s, %(profficiency_choices_3)s, %(spells_3)s),
+(%(name_4)s, %(attributes_4)s, %(level_4)s, %(race_4)s, %(class_4)s, %(languages_4)s, %(profficiency_choices_4)s, %(spells_4)s);
+[2026-10-27T10:36:37.663+0000] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-10-27T10:36:37.666+0000] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-10-27T10:36:37.668+0000] {sql.py:509} INFO - Running statement: 
+CREATE TABLE IF NOT EXISTS dnd_characters (
+    name VARCHAR,
+    attributes VARCHAR,
+    level VARCHAR,
+    race VARCHAR,
+    "class" VARCHAR,
+    languages VARCHAR,
+    profficiency_choices VARCHAR,
+    spells VARCHAR
+);
+INSERT INTO dnd_characters ("name", "attributes", "level", "race", "class", "languages", "profficiency_choices", "spells") VALUES
+(%(name_0)s, %(attributes_0)s, %(level_0)s, %(race_0)s, %(class_0)s, %(languages_0)s, %(profficiency_choices_0)s, %(spells_0)s),
+(%(name_1)s, %(attributes_1)s, %(level_1)s, %(race_1)s, %(class_1)s, %(languages_1)s, %(profficiency_choices_1)s, %(spells_1)s),
+(%(name_2)s, %(attributes_2)s, %(level_2)s, %(race_2)s, %(class_2)s, %(languages_2)s, %(profficiency_choices_2)s, %(spells_2)s),
+(%(name_3)s, %(attributes_3)s, %(level_3)s, %(race_3)s, %(class_3)s, %(languages_3)s, %(profficiency_choices_3)s, %(spells_3)s),
+(%(name_4)s, %(attributes_4)s, %(level_4)s, %(race_4)s, %(class_4)s, %(languages_4)s, %(profficiency_choices_4)s, %(spells_4)s);, parameters: {'name_0': 'Deborah Fernandez', 'attributes_0': '[7, 11, 5, 7, 6, 15]', 'level_0': '1', 'race_0': 'Halfling', 'class_0': 'Barbarian', 'languages_0': '["Common", "Halfling"]', 'profficiency_choices_0': '["Skill: Perception", "Skill: Animal Handling"]', 'spells_0': 'none', 'name_1': 'Charles Terry', 'attributes_1': '[15, 13, 15, 14, 16, 16]', 'level_1': '2', 'race_1': 'Half-Elf', 'class_1': 'Bard', 'languages_1': '["Common", "Elvish"]', 'profficiency_choices_1': '["Skill: Acrobatics", "Skill: Stealth", "Skill: Performance", "Shawm", "Horn", "Bagpipes"]', 'spells_1': '[{"name": "Feather Fall", "level": 1}, {"name": "Healing Word", "level": 1}, {"name": "Detect Magic", "level": 1}, {"name": "Speak with Animals", "level": 1}, {"name": "Unseen Servant", "level": 1}]', 'name_2': 'Marc Rodriguez', 'attributes_2': '[14, 9, 6, 7, 14, 16]', 'level_2': '2', 'race_2': 'Tiefling', 'class_2': 'Warlock', 'languages_2': '["Common", "Infernal"]', 'profficiency_choices_2': '["Skill: Deception", "Skill: Arcana"]', 'spells_2': '[{"name": "Expeditious Retreat", "level": 1}, {"name": "True Strike", "level": 0}, {"name": "Eldritch Blast", "level": 0}, {"name": "Mage Hand", "level": 0}, {"name": "Chill Touch", "level": 0}]', 'name_3': 'Julia Anderson', 'attributes_3': '[10, 2, 11, 10, 10, 17]', 'level_3': '2', 'race_3': 'Gnome', 'class_3': 'Wizard', 'languages_3': '["Common", "Gnomish"]', 'profficiency_choices_3': '["Skill: Insight", "Skill: History"]', 'spells_3': '[{"name": "Sleep", "level": 1}, {"name": "Alarm", "level": 1}, {"name": "True Strike", "level": 0}, {"name": "Shield", "level": 1}, {"name": "Shocking Grasp", "level": 0}]', 'name_4': 'Sean Williams', 'attributes_4': '[11, 16, 8, 4, 11, 9]', 'level_4': '3', 'race_4': 'Dwarf', 'class_4': 'Ranger', 'languages_4': '["Common", "Dwarvish"]', 'profficiency_choices_4': '["Skill: Animal Handling", "Skill: Survival", "Skill: Investigation"]', 'spells_4': '[{"name": "Longstrider", "level": 1}, {"name": "Detect Magic", "level": 1}, {"name": "Speak with Animals", "level": 1}, {"name": "Animal Friendship", "level": 1}, {"name": "Fog Cloud", "level": 1}, {"name": "Detect Poison and Disease", "level": 1}]'}
+[2026-10-27T10:36:37.669+0000] {sql.py:518} INFO - Rows affected: 5
+[2026-10-27T10:36:37.673+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-10-27T10:36:37.673+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dnd_weekly_characters, task_id=insert_characters, run_id=scheduled__2026-10-18T00:00:00+00:00, execution_date=20261018T000000, start_date=20261027T103637, end_date=20261027T103637
+[2026-10-27T10:36:37.680+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-10-27T10:36:37.688+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.10/site-packages/***/models/baseoperator.py:1378 AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+[2026-10-27T10:36:37.692+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T10:36:37.693+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

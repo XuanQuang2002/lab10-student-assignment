@@ -1,0 +1,18 @@
+[2026-10-27T10:36:18.203+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-10-27T10:36:18.208+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dnd_weekly_characters.fetch_races_and_classes scheduled__2026-10-18T00:00:00+00:00 [queued]>
+[2026-10-27T10:36:18.211+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dnd_weekly_characters.fetch_races_and_classes scheduled__2026-10-18T00:00:00+00:00 [queued]>
+[2026-10-27T10:36:18.211+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2026-10-27T10:36:18.216+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): fetch_races_and_classes> on 2026-10-18 00:00:00+00:00
+[2026-10-27T10:36:18.218+0000] {standard_task_runner.py:72} INFO - Started process 3320 to run task
+[2026-10-27T10:36:18.219+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dnd_weekly_characters', 'fetch_races_and_classes', 'scheduled__2026-10-18T00:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/dnd_dag.py', '--cfg-path', '/tmp/tmp2sa2vc64']
+[2026-10-27T10:36:18.221+0000] {standard_task_runner.py:105} INFO - Job 19: Subtask fetch_races_and_classes
+[2026-10-27T10:36:18.238+0000] {task_command.py:467} INFO - Running <TaskInstance: dnd_weekly_characters.fetch_races_and_classes scheduled__2026-10-18T00:00:00+00:00 [running]> on host f859a00d9926
+[2026-10-27T10:36:18.278+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='student' AIRFLOW_CTX_DAG_ID='dnd_weekly_characters' AIRFLOW_CTX_TASK_ID='fetch_races_and_classes' AIRFLOW_CTX_EXECUTION_DATE='2026-10-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-10-18T00:00:00+00:00'
+[2026-10-27T10:36:18.279+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-10-27T10:36:20.019+0000] {python.py:240} INFO - Done. Returned value was: SUCCESS
+[2026-10-27T10:36:20.033+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-10-27T10:36:20.034+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dnd_weekly_characters, task_id=fetch_races_and_classes, run_id=scheduled__2026-10-18T00:00:00+00:00, execution_date=20261018T000000, start_date=20261027T103618, end_date=20261027T103620
+[2026-10-27T10:36:20.086+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-10-27T10:36:20.097+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.10/site-packages/***/models/baseoperator.py:1378 AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+[2026-10-27T10:36:20.107+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T10:36:20.108+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
