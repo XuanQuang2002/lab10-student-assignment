@@ -1,0 +1,6 @@
+services:
+  airflow-webserver:
+    volumes:
+      # Paths are relative to the first Compose file, in the project root.
+      # Keep the existing /opt/airflow mounts used by the scheduler and webserver.
+      - .:/workspace

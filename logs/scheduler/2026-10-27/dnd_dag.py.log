@@ -5660,3 +5660,10 @@ TypeError: BaseOperator.__init__() missing 1 required positional argument: 'task
 [2026-10-27T12:42:34.503+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:42:34.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-10-27T12:42:34.516+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:42:34.516+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
 [2026-10-27T12:42:34.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.121 seconds
+[2026-10-27T12:43:04.992+0000] {processor.py:186} INFO - Started process (PID=902) to work on /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:43:04.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dnd_dag.py for tasks to queue
+[2026-10-27T12:43:04.998+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:43:04.997+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:43:05.112+0000] {processor.py:925} INFO - DAG(s) 'dnd_weekly_characters' retrieved from /opt/airflow/dags/dnd_dag.py
+[2026-10-27T12:43:05.139+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:43:05.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-27T12:43:05.315+0000] {logging_mixin.py:190} INFO - [2026-10-27T12:43:05.315+0000] {dag.py:4180} INFO - Setting next_dagrun for dnd_weekly_characters to 2026-10-25 00:00:00+00:00, run_after=2026-11-01 00:00:00+00:00
+[2026-10-27T12:43:05.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dnd_dag.py took 0.347 seconds
